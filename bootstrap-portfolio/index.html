@@ -2,7 +2,7 @@
 <html lang="es">
 
     <head>
-        <!--Metadatos-->
+        <!-- Metadatos -->
         <meta charset="utf-8">
         <meta name="author" content="Rodrigo Ruiz">
         <meta name="description" content="Porfalio de Desarrollo Web de Rodrigo Ruiz">
@@ -12,14 +12,16 @@
         <title> Rodrigo Ruiz | Desarrollo Web Front-End </title>
         <!-- Favicon -->
         <link rel="icon" type="image/x-icon" href="images/real-madrid.png">
-        <!--Bootstrap-->
+        <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <!-- CSS -->
         <link href="styles.css" rel="stylesheet">
-        <!--Google fonts-->
+        <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<!-- Icons Bootstrap-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     </head>
 
     <body>
@@ -62,7 +64,102 @@
             </div>
 
         </section>
-        <!-- Bootstrap-->
+        <!-- About me -->
+        <section class="about-me dark-section">
+            <div clas="container-generic text-center">
+                <h2 class="title-section">Conoce a Rodrigo Ruiz</h2>
+                <p class="paragraph-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a turpis hendrerit, lacinia eros eu, tempor turpis. Suspendisse gravida elementum quam at tempus. Aenean urna tortor, placerat semper massa ut, malesuada efficitur metus. Nulla id odio quam. Curabitur accumsan mi vel turpis laoreet porttitor. Pellentesque sed diam nisi. Vestibulum justo ipsum, interdum ultrices convallis vitae, rutrum sed diam. Ut ligula libero, congue et ex nec, condimentum semper risus. Sed et scelerisque justo, nec lacinia enim. Integer ac nulla sit amet elit molestie lacinia. Quisque porttitor odio elementum, malesuada lacus quis, bibendum nulla. Duis semper sapien ut odio pellentesque, in gravida sapien viverra.</p>
+            </div>
+        </section>
+        <!-- Experience -->
+        <section class="experience white-section">
+            <div class="container text-center">
+                <div class="row">
+                    <!-- Desarrollo web -->
+                    <div class="column col-12 col-md-6">
+                        <i class="bi bi-laptop"> </i>
+                        <p class="experience-title"> Desarrollo web </p>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a turpis hendrerit, lacinia eros eu, tempor turpis.
+                            Suspendisse gravida elementum quam at tempus.</p>
+                        <div class="badges-container">
+                            <span class="badge text-bg-primary">HTML</span>
+                            <span class="badge text-bg-primary">CSS</span>
+                            <span class="badge text-bg-primary"> JavaScript</span>
+                            <span class="badge text-bg-primary">React</span>
+                            <span class="badge text-bg-primary">NextJS</span>
+                        </div>
+                        </div>
+                        <!-- Student -->
+                        <div class="column col-12 col-md-6">
+                            <i class="bi bi-laptop"> </i>
+                            <p class="experience-title"> Estudios  </p>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a turpis hendrerit, lacinia eros eu, tempor turpis.
+                                Suspendisse gravida elementum quam at tempus.</p>
+                            <div class="badges-container">
+                                <span class="badge text-bg-primary">Química Aplicada</span>
+                                <span class="badge text-bg-primary">M. en C. Químicas y Bioquímicas</span>
+                                <span class="badge text-bg-primary">Desarrollo web</span>
+                            </div>
+                            </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="recent-projects black-text d-flex flex-column">
+            <h2 class="title-section"> Mis proyectos </h2>
+            <h3 class="section-description"> Estos son algunos de mis proyectos que he creado recientemente </h3>
+            <!-- Projects gallery -->
+            <div class="container text-center recent-project">
+                <div class="row">
+                    <!-- Proyecto 1 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="project">
+                            <img src="images/proyecto1.png" alt="Proyecto 1">
+                            <div class="overlay">
+                                <p> Proyecto 1 </p>
+                                <div class="icons-container">
+                                    <a href="https://github.com/teparuiz/mern-crud-portfolio-.git" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://github.com/teparuiz/mern-crud-portfolio-.git" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyecto 2 -->
+                    <div class="col-12 col-md-6 col-lg-6">
+                        <div class="project">
+                            <img src="images/proyecto2.png" alt="Proyecto 2">
+                            <div class="overlay">
+                                <p> Proyecto 2 </p>
+                                <div class="icons-container">
+                                    <a href="https://github.com/teparuiz/mern-crud-portfolio-.git" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://github.com/teparuiz/mern-crud-portfolio-.git" target="_blank" rel="noopener noreferrer">
+                                        <i class="bi bi-laptop"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/" target="_blank" rel="noo
+            noreferrer" >
+        <button type="button" class="btn btn-info"> Ver más proyectos
+            <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+    </a>
+        </section>
+
+
+        <!-- Bootstrap -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
    

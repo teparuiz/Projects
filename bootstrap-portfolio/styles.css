@@ -1,24 +1,62 @@
 /* Navbar */
 .navbar {
     padding: 2rem;
-    background-color: papayawhip; 
+    background-color: papayawhip;
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
+
 /* general styles */
 section {
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
     justify-content: center;
 }
 
 h1 {
     font-size: 2.5rem;
     font-family: 'Rubik Dirt', cursive;
+}
+
+.dark-section {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.white-section {
+    color: black;
+    background-color: white;
+}
+
+.title-section {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #584e4e
+}
+
+.paragraph-text {
+    font-size: 1.2rem;
+}
+.btn-info {
+    font-size: 1.1rem; 
+    margin: 20px; 
+    font-weight: bold;
+}
+.black-text {
+    color: black;
+}
+
+.white-text {
+    color: white;
 }
 
 /*Section Hero */
@@ -29,12 +67,12 @@ h1 {
 }
 
 .hero-principal {
-    padding: 3rem; 
+    padding: 3rem;
 }
 
-.hero-perfil-image{
-    width: 200px; 
-    height: 200px; 
+.hero-perfil-image {
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin: 20px;
 }
@@ -45,15 +83,139 @@ h1 {
 }
 
 
+/* Aboute me */
+
+.about-me {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-me .container-generic {
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Experience */
+.experience {
+    padding: 40px 40px 60px 40px;
+}
+
+.experience-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experience .column {
+    padding: 20px;
+    border: 2px solid #8080804d;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.experience .column:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+
+.badges-container {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badge {
+    margin: 5px;
+}
+
+.experience i {
+    font-size: 2.5rem;
+    color: #7ade30;
+    background-color: #0a0a23;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+/* Projects */
+.recent-project {
+    padding: 40px;
+
+}
+
+.recent-project img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.projects-container {
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.overlay p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.overlay .icons-container {
+    display: flex;
+}
+
+.overlay i {
+    color: black;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.project {
+    position: relative;
+}
+
+.project:hover img {
+    opacity: 0.2;
+}
+
+.project:hover .overlay {
+    opacity: 1;
+}
+
 
 /* Adaptable (responsivo) Media query*/
-@media screen and (max-width: 767px ){
-.navbar-brand {
-    display: none; 
-}
+@media screen and (max-width: 400px) {
+    .overlay p {
+        font-size: 18px;
+
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
     }
