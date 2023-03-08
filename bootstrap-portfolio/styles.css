@@ -196,6 +196,109 @@ h1 {
     opacity: 1;
 }
 
+/* Contacto */
+.contact .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle{
+    margin-top: -5rem;
+    background-color: rgb(13, 110, 253);
+    box-shadow: 0px 1px 4px 1px;
+}
+.contact .row {
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .description {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact button {
+    color: white; 
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.contact button i {
+    color: white; 
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+    color: black;
+}
+ 
+.contact i:hover{
+    color: black;
+}
+
+/* Footer */
+
+footer {
+    min-height: 500px;
+}
+
+.icon-footer {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.text-footer {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.icons-social-media a {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+
+}
+
+.icons-social-media i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.2 ease-in;
+}
+
+.icons-social-media a:hover{
+    background-color: white;
+    border: 2px solid rgb(13, 110, 253)
+}
+
+.icons-social-media a:hover i {
+    color: black;
+}
+
+.copyrigth {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+
 
 /* Adaptable (responsivo) Media query*/
 @media screen and (max-width: 400px) {
